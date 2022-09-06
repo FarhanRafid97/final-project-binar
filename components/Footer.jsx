@@ -54,7 +54,7 @@ export default function Footer() {
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <NextLink href="about-us" as="about-us" passHref>
+            <NextLink href="/about-us" as="/about-us" passHref>
               <Link>About Us</Link>
             </NextLink>
             <Link href={'#'}>Contact Us</Link>
