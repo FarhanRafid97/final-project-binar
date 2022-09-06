@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test start http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.6",
+    "@chakra-ui/react": "^2.2.4",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
+    "framer-motion": "^7.2.1",
+    "next": "^12.2.5",
+    "next-auth": "^4.10.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-player": "^2.10.1",
+    "react-redux": "^8.0.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "eslint": "^8.23.0",
+    "eslint-config-next": "12.2.3",
+    "start-server-and-test": "^1.14.0"
+  }
+}
