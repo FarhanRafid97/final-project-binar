@@ -6,7 +6,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { Provider } from 'react-redux';
 import store from '../store';
 import { SessionProvider } from 'next-auth/react';
-
+//deploy
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return (
     <SessionProvider session={session}>
